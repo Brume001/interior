@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration:  none;
+}
+body{
+
+    width: 100%;
+    height: auto;
+    
+}
+.hero{
+        background-color: black;
+    height: 110vh;
+    width: 100%;
+    background-image:url(Stock\ Photo\ Mockup\ _\ Black\ Living\ Room\ Tufted\ Leather\ Sofa\ Couch\ Blank\ Empty\ Dark\ Wall\ Copy\ Space.jpg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position-x: right;
+    
+}
+header {
+    padding: 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i {
+    height: 45px;
+    width: 45px;
+    background-color: #007ced;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.logo .logo-text {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 60px;
+
+}
+
+nav .navlinks {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav .navlinks li {
+    display: inline-block;
+}
+
+nav .navlinks li a {
+    color: #e5e5e5;
+    margin-right: 2.5rem;
+}
+.text{
+    color: white;
+    padding: 70px;
+    
+}
+.text .p1{
+    font-size: 15px;
+    font-weight: medium;
+}
+.text .p2{
+    line-height: 1.5rem;
+}
+.text h1{
+    font-size: 150px;
+    letter-spacing: 3px;
+    
+}
+.social{
+    padding-left:70px ;
+}
+.social i {
+    color: #e5e5e5;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.social i:hover {
+    color: #4d5257;
+    transform: rotate(360deg);
+}
+.checkbtn {
+    font-size: 30px;
+    color: #090a0a;
+    float: right;
+    line-height: 80px;
+    margin-right: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+.products{
+    background: gray;
+    width: 100%;
+    height: auto;
+    padding: 70px;
+}
+.products img{
+    width: 40%;
+    border-radius: 3px;
+}
+.product-main{
+    display: flex;
+}
+
+.product-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-sub img{
+    width: 60%;
+    height: 45%;
+    margin: 20px 70px;
+    border-radius:3px;
+}
+.products-2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.new-products{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.products-2 button{
+    margin: 30px;
+    padding: 20px;
+}
+.product-3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-color: #090909;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.product-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-text button{
+    padding: 15px;
+    margin-top: 40px;
+}
+.icon-text {
+    Display: Flex;
+    Flex-Flow: Row;
+    Align-Items: Center;
+    Justify-Content: Center;
+}
+.Service-Item {
+    Flex: 1;
+    Padding: 25px 10px;
+    Border: Lightcyan Solid 1px;
+    Text-Align: Center;
+    Margin: 100px 50px;
+    Transition: All 1s;
+    Display: Flex;
+    Flex-Flow: Column;
+    Align-Items: Center;
+    Justify-Content: Center;
+}
+.Service-Item:hover {
+    Box-Shadow: 3px 3px 20px Lightsteelblue;
+}
+
+.Service-Item H2 {
+    Font-Family: Barlow Condensed;
+    Font-Size: 18px;
+    Width: 120px;
+    Color: #001f38;
+    Flex: 1;
+}
+
+.Service-Item Img {
+    Width: 80px;
+    Height: 80px;
+    Flex: 1;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.newsletter{
+    background-color: rgb(18, 17, 17);
+    color: white;
+    padding: 100px;
+    width: 100%;
+}
+.instagram{
+    background-color: #2b3136;
+    color: white;
+    padding: 100px;
+    width: 100%;
+}
+.input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid#ccc;
+    padding: 15px;
+    font-size: 16px;
+}
+.input-box button{
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.contact{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    padding: 150px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    height: 20vh;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.Cards {
+    Display: Grid;
+    Grid-Template-Columns: Repeat(3, 1fr);
+    Grid-Template-Rows: Repeat(2, 1fr);
+    Grid-Gap: 30px;
+    Align-Items: Center;
+    Justify-Items: Center;
+    Text-Align: Center;
+    margin-top: 70px;
+}
+
+.Card {
+    Border: 1px Solid Lightgray;
+    Box-Shadow: 2px 2px 6px 0 Rgba(0, 0, 0, 0.3);
+    Border-Top-Left-Radius: 8px;
+    Border-Top-Right-Radius: 8px;
+    Width: 80%;
+    Height: Auto;
+}
+
+.Card Img {
+    Max-Width: 100%;
+    Height: 300px;
+    Border-Radius: 8px;
+    Cursor: Pointer;
+}
+
+.Cards .Text {
+    Padding: 20px;
+    Font-Family: Barlow Condensed;
+    Line-Height: 50px;
+}
+
+.Cards .Card-Box {
+    Display: Flex;
+    Flex-Flow: Row;
+    Background-Color: #Fde02f;
+    Font-Size: 18px;
+    Font-Family: Roboto;
+    Align-Items: Center;
+    Justify-Content: Center;
+    Text-Align: Center;
+}
+
+.Cards .Time {
+    Flex: 1;
+}
+
+.Cards .Location {
+    Flex: 2;
+}
+
+.Cards .Cost {
+    Color: #4cafad;
+    Font-Size: 20px;
+}
+
+/*------------Zoom In Photos--------------*/
+.Zoom-Img {
+    Float: Left;
+    Position: Relative;
+    Width: 100%;
+    Height: 320px;
+    Overflow: Hidden;
+}
+
+.Zoom-Img .Img-Card {
+    Position: Absolute;
+    Overflow: Hidden;
+}
+
+.Img-Card Img {
+    -Webkit-Transition: 0.8s Ease;
+    Transition: 0.8s Ease;
+}
+
+.Card:hover .Zoom-Img Img {
+    -Webkit-Transform: Scale(1.1);
+    Transform: Scale(1.1);
+}
+@media(max-width:930px){
+    .hero{
+        background-image: url(Stock\ Photo\ Mockup\ _\ Black\ Living\ Room\ Tufted\ Leather\ Sofa\ Couch\ Blank\ Empty\ Dark\ Wall\ Copy\ Space.jpg);
+        background-size: cover;
+        background-position-x: 0;
+    }
+    .navlinks ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: red;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        
+    }
+        nav .navlinks {
+            position: absolute;
+            top: 110px;
+            right: -100%;
+            bottom: 0;
+            width: 60%;
+            height: 100vh;
+            background-color: #222;
+            z-index: 3;
+            box-shadow: 5px 13px 30px rgba(0, 0, 0, 0.1);
+            transition: 0.5s;
+            padding: 25px 0px;
+        }
+    
+        nav .navlinks li {
+            display: block;
+        }
+    
+        nav .navlinks li a {
+            display: block;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+    
+        nav .navlinks.open {
+            right: 0;
+        }
+    
+        .checkbtn {
+            display: block;
+            padding-left: 100px;
+        }
+    
+        .navlinks ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: red;
+            top: 80px;
+            left: 0;
+            text-align: center;
+        }
+        .logo{
+            padding-left: 50px;
+        }
+        .text h1{
+            font-size: 75px;
+        }
+        .product-3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 70px;
+        }
+        .product-3 img{
+            width: 60%;
+            height: 35%;
+            order: 1;
+        }
+        .product-text{
+            padding-left: 20px;
+            order: 2;
+        }
+        .icon-text{
+            display: block;
+        }
+        .account{
+            display: block;
+        }
+                .Cards {
+                    Display: Grid;
+                    Grid-Template-Columns: Repeat(1, 1fr);
+                    Grid-Template-Rows: Repeat(6, 1fr);
+                    Grid-Gap: 20px;
+                }
+        
+                .Card {
+                    Width: 300px;
+                    Height: 500px;
+                    Margin: Auto;
+                }
+        
+                .Cards .Text {
+                    Padding: 5px;
+                    Font-Family: Barlow Condensed;
+                }
+
+    
+        
+}
+
